@@ -1,0 +1,61 @@
+body {
+    background-color: #e5ffb6; /* Цвет фона веб-страницы */
+    color: #333333; /* Цвет основного текста */ 
+}
+p1 {
+    color: #000000; /* Цвет заголовка */
+    font-size: 30px; /* Размер шрифта в пунктах */
+    font-family: "Arial Black", Gadget, sans-serif; /* Семейство шрифтов */
+}
+p3 {
+    color: #000000; /* Цвет заголовка */
+    font-size: 30px; /* Размер шрифта в пунктах */
+    font-family: "Arial Black", Gadget, sans-serif; /* Семейство шрифтов */
+}
+p4 {
+    color: #000000; /* Цвет заголовка */
+    font-size: 30px; /* Размер шрифта в пунктах */
+    font-family: "Arial Black", Gadget, sans-serif; /* Семейство шрифтов */
+}
+p5 {
+    color: #000000; /* Цвет заголовка */
+    font-size: 30px; /* Размер шрифта в пунктах */
+    font-family: "Arial Black", Gadget, sans-serif; /* Семейство шрифтов */
+}
+span {
+    color: #000000; /* Цвет заголовка */
+    font-size: 20px; /* Размер шрифта в пунктах */
+    font-family: "Trebuchet MS", Helvetica, sans-serif; /* Семейство шрифтов */
+}
+ul {
+    color: #000000; /* Цвет заголовка */
+    font-size: 20px; /* Размер шрифта в пунктах */
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+img {
+    border-radius: 30px;
+    border: 5px #2b6e69 solid;
+}
+
+@keyframes color-change {
+    0% {
+        font-size: 30px; /* Размер шрифта в пунктах */
+    }
+  
+    100% {
+        font-size: 35px; /* Размер шрифта в пунктах */
+    }
+}
+
+p1:hover {
+    animation: color-change 1s infinite;
+}
+p3:hover {
+    animation: color-change 1s infinite;
+}
+p4:hover {
+    animation: color-change 1s infinite;
+}
+p5:hover {
+    animation: color-change 1s infinite;
+}
